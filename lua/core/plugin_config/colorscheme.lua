@@ -1,2 +1,8 @@
 vim.o.termguicolors = true
-vim.cmd [[ colorscheme tokyonight ]]
+
+require("kanagawa").setup({
+  transparent = true,
+  theme = "dragon",
+  
+})
+vim.cmd [[ colorscheme kanagawa ]]
