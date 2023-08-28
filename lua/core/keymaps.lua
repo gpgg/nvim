@@ -19,8 +19,8 @@ vim.wo.signcolumn = 'yes'
 -- reference line
 vim.wo.colorcolumn = "160"
 
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = 'zz'
+vim.g.maplocalleader = 'zz'
 
 vim.opt.backspace = '2'
 vim.opt.showcmd = true
@@ -30,7 +30,7 @@ vim.opt.cursorline = true
 vim.opt.autoread = true
 
 -- use spaces for tabs and whatnot
-vim.opt.tabstop = 2
+vim.opt.tabstop = 2 
 vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
