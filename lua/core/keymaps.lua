@@ -46,7 +46,7 @@ vim.bo.autoread = true
 --vim.keymap.set('n', '<leader>t', ':sp | terminal<CR>')
 
 
-vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+-- vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
 -- alt + hjkl switch between windows
 vim.keymap.set('n', '<leader>h', '<c-w>h')
